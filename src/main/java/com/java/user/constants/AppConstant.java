@@ -12,6 +12,7 @@ public interface AppConstant {
 	static String STUDENT_CONTROLLER = "/stud";
 	static String SAVE = "save";
 	static String HOME = "home";
+	static String LOGIN1 = "login";
 	
 
 }
