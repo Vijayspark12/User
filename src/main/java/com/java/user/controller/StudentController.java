@@ -30,6 +30,10 @@ public class StudentController {
 		model.addAttribute("name",name);
 		return "home";
 	}
+	@GetMapping(value = AppConstant.LOGIN1)
+	public String login() {
+		return "you are logged in successfully";
+	}
 	
 	
 
